@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / build artifacts (in case anyone tries to npm install here)
+node_modules/
+dist/
+.nuxt/
+.output/
+
+# Sensitive — never commit
+*.env
+*.local
+.env.*
+secrets/
+credentials/
+
+# Backend / source code — this is a docs-only public mirror
+src/
+RFIDUHFClient/
+vue-rfid-admin/
+product-website/
+scripts/
+test/
+项目文档/
+openspec/
+*.sln
+*.csproj
+*.cs
+appsettings*.json
+docker-compose*.yml
